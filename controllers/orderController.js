@@ -31,7 +31,7 @@ export function createOrder(req, res) {
             const lastOrderNumberInt = parseInt(lastOrderNumber);    //61
             const newOrderNumberInt = lastOrderNumberInt + 1;    //62
             const newOrderNumberStr = newOrderNumberInt.toString().padStart(4, "0");    //"0062"
-            orderData.orderId = "ORD" + newOrderNumberStr;
+            orderData.orderId = "ORD" + newOrderNumberStr;    //"ORD0062"
         }
     
 
