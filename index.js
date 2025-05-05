@@ -31,8 +31,8 @@ app.use("/api/user", userRouter);
 app.use("/api/product", productRouter);
 app.use("/api/order", orderRouter);
  
-app.listen(4000,
+app.listen(5500,
     ()=>{
-        console.log("Server is running on port 4000")
+        console.log("Server is running on port 5500")
     }
 );
